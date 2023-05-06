@@ -1,0 +1,738 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+*{
+    
+    margin: 0;
+    
+
+}
+header{
+   
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding: 40px;
+}
+
+h2{
+    font-size: 40px !important;
+}
+
+header nav {
+    padding-top: 30px;
+    display: flex;
+    gap: 100px;
+}
+
+    
+
+nav a {
+    text-decoration: none;
+    color:#666666;
+    font-size: 20px;
+   
+}
+nav a:hover{
+  color: chartreuse;
+  transition: 0.4s;
+}
+ 
+/*MAIN*/
+
+.carousel-inner{
+    height: 100%;
+}
+.carousel-item{
+    height: 100%;
+}
+.carousel {
+    background-image: url(./img/banner1.jpg);
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+   
+    
+}
+.contenido1{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50%;
+    justify-content: center;
+    justify-items: center;
+    
+    
+   }
+
+.titulo1{
+    color:#000000 ;
+    font-size: 75px;
+    font-weight: solid;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.parrafo1{
+    color: #ffffff;
+    font-weight: bold;   
+    margin-bottom: 50px;
+}
+.sabermas{
+text-align: center;
+background-color: #ffffff;
+color: #000000;
+text-decoration: none;
+border-radius: 50px;
+max-width: 230px;
+font-size: 17px;
+padding:20px ;
+font-family: 'Poppins', sans-serif;
+font-weight: 900;
+
+
+}
+.sabermas:hover{
+    background-color: #000000;
+    color: #ffffff;
+    transition: 1s;
+}
+/*secciom*/
+.conteiner1{
+    max-width: 1600px;
+    margin: auto;
+}
+.contemflex{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 100px 10px 100px 10px;
+}
+.contenido2{
+    max-width: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.colorverde{
+    color: #16e816;
+}
+span{
+    color: #16e816;
+}
+.imagem{
+    position: relative;
+}
+.imagem::after{
+content: "";
+width: 80%;
+height: 117%;
+z-index: -1;
+background-color:#66666626 ;
+position: absolute;
+top: -40px;
+bottom: -40px;
+right: -40px;
+
+}
+.contenido2 p{
+    font-size: 18px;
+}
+.contenido2 p {
+    color: #000000d3;
+}
+.butoom2{
+    text-decoration: none;
+    color: #ffffff;
+    background-color:#252525;
+    width: 230px;
+    padding: 10px 0 ;
+    text-align: center;
+    font-size: 20PX;
+    transition: 1s;
+}
+    
+.butoom2:hover{
+    background-color: #16e816;
+
+}
+/*secciom2*/
+.container4{
+    max-width: 1000px;
+    margin: 4rem auto;
+    
+    
+}
+
+.container4 h5{
+    text-align: center;
+    padding-bottom: 80px;
+    font-size: 35px;
+   font-family: 'Poppins', sans-serif;
+}
+.lini1{
+    display: flex;
+    gap: 200px;
+}
+.linia2{
+    display: flex;
+    justify-content: flex-end;
+    gap: 170px;
+    padding: 0 150px 0 0;
+    
+}
+.logoh2{
+    font-size:30px ;
+   font-weight: bold;
+   }
+.parrafo50{
+    color: #181818;
+   font-weight: 600;
+}
+.butoom3{
+    text-decoration: none;
+    color: #ffffff;
+    background-color:#252525;
+    padding: 10px 20px;
+    font-size: 20px;
+    transition: 1s;
+    margin-left: 440px;
+}
+.butoom3:hover{
+    background-color: #16e816;
+}
+/*cartas*/
+.galeria{
+    background-color: #66666623;
+    text-align: center;
+}
+.galeria h3 {
+    font-size: 40px;
+    padding-top: 80px;
+    font-family: 'Poppins', sans-serif;
+}
+.galeria p {
+    margin-top: 30px;
+    font-size: 15px;
+    color: #252525ab;
+    font-weight: bold;
+}
+.container6{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    text-align: center;
+    margin-left: 320px;
+    gap: 30px;
+    padding: 10px 0 80px 0 ;
+}
+.cartaletras{
+    background-color:#2a2b2a;
+    width: 408px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.cartaletras h4 {
+    color: white;
+    font-size: 30px;
+}
+.cartaletras  p{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    line-height: 31px ;
+}
+
+.cartaimg{
+    overflow: hidden;
+}
+.cartaimg img{
+    transition: all 0.5s ease-out;
+}
+.cartaimg img:hover{
+   transform: scale( 1.15) ;
+    }
+/*secciom2*/
+
+.container7{
+  display: flex;
+  justify-content: flex-end;
+  margin: 50px 0;
+}
+.contenidogeneral{
+    display: flex;
+    gap: 80px;
+
+    text-align: center;
+}
+
+
+.contenidodellagoderecho{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imagenderecho{
+    display: flex;
+}
+
+.contenidodellagoderecho h4 {
+
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.contenidodellagoderecho p {
+    font-weight: 600;
+}
+.botones2{
+    margin-top: 30px;
+  
+}
+.botones2 button{
+    background-color: #000000;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: bolder;
+    margin: 10px;
+    padding: 10px 30px;
+    transition: ease-in all 0.20s;
+   
+}
+.botones2 button:hover{
+    background-color: #16e816;
+   
+}
+.inverted{
+    transform: rotate(180deg);
+    
+}
+/*secciom3*/
+.container8{
+    max-width: 1100px;
+    margin: auto; 
+    text-align: center;
+    padding: 30px 0;
+   
+    
+}
+.container8 h4{ 
+    font-size: 30px;
+    font-family:'Poppins', sans-serif ;
+
+}
+
+.minicontainer{
+  display: flex;
+  padding: 50px 0;
+  
+  }
+   
+
+.cartapositiom{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 300px 30px 0 30px;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    height: 560px;
+    width: 380px;
+    margin: 10px 0 0 200px;
+    font-size: 15px;
+    transition: ease-in all 0.5s;
+}
+.cartapositiom:hover{
+    background-color: #000000;
+    color: #ffffff;
+    transition: 1s;
+   
+}
+.cartapositiom h5 {
+    font-weight: bold;
+}
+
+.textopositiomflex{
+    display: flex;
+    gap: 50px;
+    
+}
+.textopositiomflex h5{ 
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    gap: 5px;
+    transition: ease-in all 0.15s;
+    font-weight: 600;
+  
+}
+    
+   
+
+.textopositiomflex h5:hover{
+    color: #16e816;
+    transition: 0.15s;
+    
+}
+
+.imgpositomuno{
+    position: absolute;
+    top: 0px;
+    right: 17px;
+}
+
+
+.ladoizquierdopositiom{
+    margin:   10px  0  0  600px ;
+    text-align: left;
+    height: 560px;
+    width: 350px;
+    background-color: #ffffff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 30px 30px 0px 30px ;
+    transition: ease-in all 0.5s;
+    
+}
+.ladoizquierdopositiom:hover{
+    background-color: #000000;
+    color: #ffffff;
+    transition: 1s;
+}
+.ladoflex{
+    display: flex;
+    gap: 30px;
+    
+}
+.ladoflex h5 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 17px;
+    transition: ease-in all 0.15s;
+}
+.ladoflex h5:hover {
+   color: #16e816;
+}
+.ladoizquierdopositiom img {
+    position: absolute;
+    top: 0px;
+    left: 32px;
+}
+.ladoizquierdopositiom h5 {
+    font-weight: bold;
+}
+.botom5{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 10px 30px;
+    transition: ease-in all 0.20s;
+}
+.botom5:hover{
+    background-color: #16e816;
+
+    transition: 0.5s;
+}
+
+/*seccioncreo10*/
+
+.scontainer10{
+    margin-right: auto;
+    display: flex;
+    padding: 80px 0;
+    justify-content: space-between;
+}
+.divcolor{
+    background-color: #1d1a1ae5;
+    padding: 100px 0 30px 0;
+    
+}
+
+.pate1deldiv10{
+    display: flex;
+    margin-left: 80px;
+    gap: 100px ;
+}
+.cartaimagen{
+    border:solid rgb(0, 255, 13) 1px;
+    padding: 150px 300px;
+    position: relative;
+   
+   
+}
+.contenidotetras1{
+    position: absolute;
+   left: 35px;
+   top: 100px;
+}
+.imagenxdearribadelcontenido{
+    position: absolute;
+    top: -60px;
+    left: 30px;
+}
+.contenidotetras1 h4 , p {
+  
+    
+    color: #ffffffee;
+    font-weight: solid;
+
+}
+.ccartaimagendeladoderecho{
+    border: solid 1px #16e816; 
+   margin-right: 80px;
+   position: relative;
+   padding:150px 300px ;
+}
+.contenidodeletras2{
+    color: #ffffffee;
+    font-weight: solid;
+    position: absolute;
+    top: 80px;
+    left: 30px;
+}
+.imagendelladoderechofixxex{
+    position: absolute;
+    top: -50;
+}
+.imagendelladoderechofixxex{
+    position: absolute;
+    top: -60px;
+    left: 35px;
+    }
+
+.containerdebotones{
+    max-width: 1600px;
+    margin: auto;
+    text-align: center;
+}
+
+.containerdebotones h4 {
+    font-size: 40px;
+    margin-bottom: 50px;
+    font-family:'Poppins', sans-serif ;
+}
+.botonesfalsosdea{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 80px;
+    
+}
+
+.botonesfalsosdea a{
+    text-decoration: none;
+    font-size: 40px;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 30px;
+    transition: ease-in all 0.20s;    
+    }
+   
+.botonesfalsosdea a:hover{
+    background-color: #16e816;
+    transition: 1s;
+}
+.inver{
+    transform: rotate(180deg);
+    
+}
+div .locolocolocoloc{
+    transform: rotate(180deg);
+}
+
+.sectiomdegooglemap{
+    background-image: url("./img/conatct.jpg") ;
+    height: 600px;
+    background-size: cover;
+}
+
+.container11{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;   
+    padding: 50px 0 ;
+    gap: 100px;
+    
+    }
+    .contactonumero30 h5{
+        color: #ffffff;
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+    
+.furmulariointerno{
+    margin-bottom: 30px;
+    
+}
+.furmulariointerno input{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 350px 20px 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: transparent;
+  
+}
+.formularioenviar{
+    background-color: transparent;
+    padding: 10px 40px;
+    color: #ffffff;
+    border: solid white 3px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: ease-in all 0.5s; 
+}
+.formularioenviar:hover{
+    background-color: #181818;
+}
+
+textarea{
+
+    width: 100%;
+    height: 80px;
+    padding: 20px 0 0 10px ;
+    
+    
+}
+.mapademap{
+    margin: 0 0 15px 0;
+}
+
+/*fuuter*/
+
+footer{
+    background-color: #1d1c1c;
+    height: 550px;
+   
+}
+
+.conatainer1234final{
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    gap: 80px;
+   padding: 120px 0 0 0 ;
+}
+
+.iconosderedesso {
+display: flex;
+gap: 10px;
+font-size: 25px;
+}
+
+.iconosderedesso i{
+    background-color: azure;
+    border-radius: 100px;
+    padding: 7px;
+    transition: ease-in all 0.5s; 
+}  
+
+.iconosderedesso i:hover{
+    background-color: #16e816;
+    transition: 0.5s;
+}
+
+.divdeingormaciompersonal p{
+    margin-top: 10px;
+    margin-top: 10px;
+color: white;
+font-size: 18px;
+line-height: 30px;
+font-weight: 600;
+}
+
+.informacionfinal{
+    display: flex;
+    flex-direction: column;
+}
+.informacionfinal  a {
+    margin-top: 10px;
+    color: #ffffff;
+    text-decoration: #ffffff;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.informacionfinal  h5{
+    color: #ffffff;
+    font-size: 30px;
+    
+}
+
+.informacionfinal  a:hover {
+    color: #16e816;
+}
+
+
+.parrafo1delfuuter h5{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 600;
+    
+}
+
+.parrafo1delfuuter p{
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.partedosyelfuuyer4 h5{
+color: #ffffff;
+font-size: 30px;
+}
+
+.partedosyelfuuyer4  p {
+    margin-top: 10px;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.fomrfinalporoyec{
+    margin-left: 50%;
+}
+
+.inputfinalproyex{
+    background-color: transparent;
+    border: inherit;
+    width: 50%;
+    height: 47px;
+    font-size: 17px;
+    font-weight: 300;
+    border-bottom: solid 1px #ffffff;
+}
+.bottomfinalproyec{
+    font-size: 19px;
+    background-color: transparent;
+    color: #ffffff;
+    padding: 10px 0;
+    font-weight: 500;
+    border: inherit;
+    text-transform: uppercase;
+    position: absolute;
+
+    right: 475px;
+    transition: ease-in all 0.5s; 
+}
+.bottomfinalproyec:hover{
+     
+    color: #16e816;
+}
+
+.contenidofinaldefinal p {
+    color: #000000;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 11px;
+    transition: ease-in all 0.5s; 
+}
+
+.contenidofinaldefinal p:hover{
+    color: #ff0000;
+}
